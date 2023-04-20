@@ -1,0 +1,28 @@
+body {
+    background-color: bisque;
+    font-family: 'Aldrich', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-list-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+}
+
+.nav-list-items li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
