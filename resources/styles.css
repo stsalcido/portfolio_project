@@ -48,6 +48,21 @@ a {
     border-radius: 50%;
 }
 
+#skills-table {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#skills-table th {
+    text-align: left;
+    font-size: 1.25rem;
+    color: var(--fluorescent-cyan);
+}
+
+#skills-table td, #skills-table th {
+    padding: 8px;
+}
+
 /**************** classes ****************/
 
 .greetings {
