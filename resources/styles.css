@@ -1,10 +1,19 @@
+:root {
+    --oxford-blue: #0b132b;
+    --verdigris: #5bc0be;
+    --fluorescent-cyan: #6FFFE9;
+    --yin-blue: #3a506b;
+    --white: #fff;
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: bisque;
+    background-color: var(--oxford-blue);
     font-family: 'Aldrich', sans-serif;
+    color: var(--verdigris);
 }
 
 a {
@@ -14,13 +23,36 @@ a {
 /**************** id's ****************/
 
 #main-content {
-    background-color: purple;
     max-width: 90vw;
     /* max-height: 90vh; */
     margin: auto;
 }
 
+#body-content {
+    padding-left: 1.25rem;
+}
+
+#body-content section {
+    margin: 2rem 0;
+}
+
+#body-content section h2 {
+    margin: 1rem 0;
+    font-size: 2rem;
+    color: var(--fluorescent-cyan);
+}
+
+#body-content .about-me .my-pic {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
 /**************** classes ****************/
+
+.greetings {
+    background: var(--yin-blue);
+}
 
 .greetings-intro {
     font-size: 1.5rem;
@@ -30,11 +62,12 @@ a {
 .name {
     font-size: 4.75rem;
     padding: 0.75rem 0 0 0.7rem;
+    color: var(--fluorescent-cyan);
 }
 
 .text-intro {
     text-align: center;
-    padding-top: 8rem;
+    margin: 8rem 0;
     font-size: 1.5rem;
 }
 
@@ -43,15 +76,34 @@ a {
     align-items: center;
     justify-content: end;
     padding: 1.25rem;
-    background-color: teal;
-    color: #fff;
+    /* background-color: teal; */
+    color:  var(--fluorescent-cyan);
+}
+
+.contact-me {
+    padding-left: .8rem;
+}
+
+.contact-me img:hover {
+    box-shadow: 0 0 3rem var(--white);
+}
+
+.contact-me img {
+    margin: .5rem .25rem 0 .3rem;
 }
 
 .nav-list-items li {
     margin: 0 0.6rem;
+    font-size: 1.15rem;
 }
 
 .nav-list-items li:hover {
     cursor: pointer;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    text-shadow: 0 0 2rem var(--white);
+}
+
+.specs {
+    display: flex;
+    flex-direction: row-reverse;
 }
