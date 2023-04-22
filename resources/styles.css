@@ -45,6 +45,7 @@ a {
 #body-content .about-me .my-pic {
     width: 15rem;
     height: 15rem;
+    border: .1rem solid var(--fluorescent-cyan);
     border-radius: 50%;
 }
 
