@@ -18,6 +18,7 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--fluorescent-cyan);
 }
 
 /**************** id's ****************/
@@ -62,6 +63,10 @@ a {
 
 #skills-table td, #skills-table th {
     padding: 8px;
+}
+
+#projects p {
+    margin-bottom: 1rem;
 }
 
 
