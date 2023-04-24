@@ -115,11 +115,19 @@ a {
 
 .nav-list-items li:hover {
     cursor: pointer;
-    /* text-decoration: underline; */
     text-shadow: 0 0 2rem var(--white);
 }
 
 .specs {
     display: flex;
     flex-direction: row-reverse;
+}
+
+.specs p {
+    margin: 0.3rem 0;
+}
+
+.personal-info {
+    font-size: 1.25rem;
+    color: var(--fluorescent-cyan);
 }
