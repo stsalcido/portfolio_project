@@ -64,6 +64,7 @@ a {
     padding: 8px;
 }
 
+
 /**************** classes ****************/
 
 .greetings {
@@ -93,6 +94,10 @@ a {
     justify-content: end;
     padding: 1.25rem;
     /* background-color: teal; */
+    color:  var(--fluorescent-cyan);
+}
+
+.nav-list-items a {
     color:  var(--fluorescent-cyan);
 }
 
@@ -130,4 +135,13 @@ a {
 .personal-info {
     font-size: 1.25rem;
     color: var(--fluorescent-cyan);
+}
+
+.qa {
+    color: var(--fluorescent-cyan);
+}
+
+.questions-section p {
+    margin: 0.5rem 0;
+    line-height: 1.5rem;
 }
